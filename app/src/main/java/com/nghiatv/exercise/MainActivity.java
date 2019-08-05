@@ -1,15 +1,13 @@
-package com.nghiatv.exercise.exercise1;
+package com.nghiatv.exercise;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.nghiatv.exercise.R;
-
-public class Exercise1Activity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_exercise1);
+        setContentView(R.layout.activity_main);
     }
 }
